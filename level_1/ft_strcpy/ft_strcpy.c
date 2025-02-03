@@ -6,9 +6,13 @@
 /*   By: enoshahi <enoshahi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 11:48:51 by enoshahi          #+#    #+#             */
-/*   Updated: 2025/02/03 15:20:18 by enoshahi         ###   ########.fr       */
+/*   Updated: 2025/02/03 17:03:49 by enoshahi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
+void ft_void(void)
+{
+	
+}
