@@ -6,19 +6,19 @@
 /*   By: enoshahi <enoshahi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/15 16:59:27 by enoshahi          #+#    #+#             */
-/*   Updated: 2025/02/02 17:38:25 by enoshahi         ###   ########.fr       */
+/*   Updated: 2025/02/03 16:53:16 by enoshahi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int ac, char **av)
+int main(int ac, char **av)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	if (ac != 2 || !av[i])
-		return (write(1, "\n", 1));
+		return(write(1, "\n", 1));
 	while (av[1][i] == ' ' || av[1][i] == '\t')
 		i++;
 	while (av[1][i] && (av[1][i] != ' ' && av[1][i] != '\t'))
@@ -27,5 +27,4 @@ int	main(int ac, char **av)
 		i++;
 	}
 	write(1, "\n", 1);
-	return (0);
 }
